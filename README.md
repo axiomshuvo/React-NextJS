@@ -1,25 +1,12 @@
-# React-NextJS
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-**React & Next.js Web App**
+Currently, two official plugins are available:
 
-This is a web app built using **React** and **Next.js** to create a fast, interactive, and scalable experience. With **Next.js**, we get all the cool features like server-side rendering (SSR) and static site generation (SSG), making the app super quick and SEO-friendly.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### What’s inside:
+## Expanding the ESLint configuration
 
-* **React** for creating dynamic and reusable UI components
-* **Next.js** for powerful routing and the ability to pre-render pages for better performance
-* **CSS Modules** or **Styled Components** to style the app with a modern approach
-* **API Routes** to add server-side logic in a seamless way
-* **Responsive Design** so the app looks great on any device
-* **TypeScript** for a safer, more reliable coding experience
-
-### How to Get Started:
-
-1. Clone the repo
-2. Install the dependencies with `npm install` or `yarn`
-3. Run the app locally with `npm run dev` or `yarn dev`
-
----
-
-This version feels a little more laid-back while still covering all the important details!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
