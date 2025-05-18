@@ -1,6 +1,12 @@
 import { render } from "preact";
-// import React from "react";
-import Game from "./app.jsx";
+import React from "react";
+import App from "./app.jsx";
 import "./index.css";
 
-render(<Game />, document.getElementById("app"));
+render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+
+  document.getElementById("app")
+);
