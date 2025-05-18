@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "push": "git push --all"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.5",
